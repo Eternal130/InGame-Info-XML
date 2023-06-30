@@ -2,8 +2,12 @@ buildscript {
     repositories {
         mavenCentral()
         maven {
-            name = 'forge'
-            url = 'http://files.minecraftforge.net/maven'
+            name = "gt"
+            url = "https://gregtech.mechaenetia.com/"
+        }
+        maven {
+            name = "gtnh"
+            url = "http://jenkins.usrv.eu:8081/nexus/content/groups/public/"
         }
         maven {
             name = 'sonatype'
@@ -11,7 +15,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.0.+') { changing = true}
     }
 }
 
@@ -23,6 +27,7 @@ ext.modversion = "${project.version_major}.${project.version_minor}.${project.ve
 
 group = 'com.github.lunatrius'
 version = "${project.version_minecraft}-${modversion}"
+targetCompatibility = sourceCompatibility = JavaVersion.VERSION_1_8
 
 compileJava.options.encoding = 'UTF-8'
 
@@ -48,6 +53,7 @@ minecraft {
     replace '${mcversion}', project.version_minecraft
     replace '${forgeversion}', project.version_forge
 }
+tasks.withType(JavaCompile) {options.encoding = 'UTF-8'}
 
 processResources {
     // this will ensure that this task is redone when the versions change.
