@@ -280,6 +280,7 @@ ingameinfoxml.tag.fmtskillprogress.desc=%s进度.
 
 # gui - tag list - integration - terrafirmacraftplus
 ingameinfoxml.tag.tfcplusrainfall.desc=当前位置降水量.
+ingameinfoxml.tag.tfcplushumidity.desc=当前位置湿度.
 ingameinfoxml.tag.tfcplustemperature.desc=当前位置温度.
 ingameinfoxml.tag.tfcplusaveragetemperature.desc=当前位置的年平均温度.
 ingameinfoxml.tag.tfcplustemperatureheatsources.desc=当前位置有其他热源的温度.

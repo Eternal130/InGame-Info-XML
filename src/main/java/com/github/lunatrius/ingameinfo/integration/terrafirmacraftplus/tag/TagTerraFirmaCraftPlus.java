@@ -31,6 +31,18 @@ public abstract class TagTerraFirmaCraftPlus extends TagIntegration {
         }
     }
 
+    public static class Humidity extends TagTerraFirmaCraftPlus {
+        @Override
+        public String getValue() {
+            try {
+                return String.format(Locale.ENGLISH, "%.1f%%", TFC_Core.getHumidity(world, playerPosition.x, playerPosition.y, playerPosition.z) * 100f);
+            } catch (Throwable e) {
+                log(this, e);
+            }
+            return "-1";
+        }
+    }
+
     public static class Temperature extends TagTerraFirmaCraftPlus {
         @Override
         public String getValue() {
@@ -199,6 +211,7 @@ public abstract class TagTerraFirmaCraftPlus extends TagIntegration {
 
     public static void register() {
         TagRegistry.INSTANCE.register(new Rainfall().setName("tfcplusrainfall"));
+        TagRegistry.INSTANCE.register(new Humidity().setName("tfcplushumidity"));
         TagRegistry.INSTANCE.register(new Temperature().setName("tfcplustemperature"));
         TagRegistry.INSTANCE.register(new AverageTemperature().setName("tfcplusaveragetemperature"));
         TagRegistry.INSTANCE.register(new TemperatureWithHeatSources().setName("tfcplustemperatureheatsources"));

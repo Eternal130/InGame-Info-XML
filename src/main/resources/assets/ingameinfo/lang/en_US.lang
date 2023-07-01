@@ -285,6 +285,21 @@ ingameinfoxml.tag.fmtskill.desc=%s information.
 ingameinfoxml.tag.fmtskillrank.desc=Current rank for %s.
 ingameinfoxml.tag.fmtskillprogress.desc=Current progress in %s.
 
+# gui - tag list - integration - terrafirmacraftplus
+ingameinfoxml.tag.tfcplusrainfall.desc=Rainfall at your current position.
+ingameinfoxml.tag.tfcplushumidity.desc=Humidity at your current position.
+ingameinfoxml.tag.tfcplustemperature.desc=Temperature at your current position.
+ingameinfoxml.tag.tfcplusaveragetemperature.desc=Average yearly temperature at your current position.
+ingameinfoxml.tag.tfcplustemperatureheatsources.desc=Temperature with external heat sources at your current position.
+ingameinfoxml.tag.tfcplusseason.desc=Season.
+ingameinfoxml.tag.tfcplusdate.desc=Date.
+ingameinfoxml.tag.tfcplusday.desc=Day.
+ingameinfoxml.tag.tfcplusmonth.desc=Month.
+ingameinfoxml.tag.tfcplusyear.desc=Year.
+ingameinfoxml.tag.fmtskill.desc=%s information.
+ingameinfoxml.tag.fmtskillrank.desc=Current rank for %s.
+ingameinfoxml.tag.fmtskillprogress.desc=Current progress in %s.
+
 # gui - tag list - integration - thaumcraft
 ingameinfoxml.tag.tcwarpperm.desc=Player's permanent warp.
 ingameinfoxml.tag.tcwarpsticky.desc=Player's normal (sticky) warp.
