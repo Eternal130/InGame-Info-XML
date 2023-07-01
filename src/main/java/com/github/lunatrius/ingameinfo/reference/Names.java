@@ -12,6 +12,9 @@ public final class Names {
         public static final String TERRAFIRMACRAFT_MODID = "terrafirmacraft";
         public static final String TERRAFIRMACRAFT_NAME = "TerraFirmaCraft";
 
+        public static final String TERRAFIRMACRAFTPLUS_MODID = "terrafirmacraftplus";
+        public static final String TERRAFIRMACRAFTPLUS_NAME = "TerraFirmaCraftPlus";
+
         public static final String THAUMCRAFT_MODID = "Thaumcraft";
         public static final String THAUMCRAFT_NAME = "Thaumcraft";
     }

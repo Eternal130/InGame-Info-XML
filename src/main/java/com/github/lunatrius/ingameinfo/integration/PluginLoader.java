@@ -25,6 +25,7 @@ public class PluginLoader {
                 "com.github.lunatrius.ingameinfo.integration.bloodmagic.BloodMagic",
                 "com.github.lunatrius.ingameinfo.integration.simplyjetpacks.SimplyJetpacks",
                 "com.github.lunatrius.ingameinfo.integration.terrafirmacraft.TerraFirmaCraft",
+                "com.github.lunatrius.ingameinfo.integration.terrafirmacraftplus.TerraFirmaCraftPlus",
                 "com.github.lunatrius.ingameinfo.integration.thaumcraft.Thaumcraft"
         };
 

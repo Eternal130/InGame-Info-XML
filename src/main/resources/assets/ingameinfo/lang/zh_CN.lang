@@ -51,7 +51,10 @@ ingameinfoxml.tag.category.playerpotion.name=玩家 - 药水效果
 ingameinfoxml.tag.category.riding.name=骑乘
 ingameinfoxml.tag.category.time.name=世界时间
 ingameinfoxml.tag.category.world.name=世界名称
+ingameinfoxml.tag.category.bloodmagic.name=Blood Magic
 ingameinfoxml.tag.category.simplyjetpacks.name=Simply Jetpacks
+ingameinfoxml.tag.category.terrafirmacraft.name=TerraFirmaCraft
+ingameinfoxml.tag.category.terrafirmacraftplus.name=TerraFirmaCraftPlus
 ingameinfoxml.tag.category.thaumcraft.name=Thaumcraft
 
 # gui - tag list - formatting tags
@@ -260,6 +263,34 @@ ingameinfoxml.tag.sjmaxenergy.desc=喷气背包最大能量值.
 ingameinfoxml.tag.sjpercent.desc=喷气背包剩余能量值(以百分比为单位).
 ingameinfoxml.tag.sjenabled.desc=若果该喷气背包可用就返回§e真§r, 否则就返回§e假§r.
 ingameinfoxml.tag.sjhover.desc=如果该喷气背包处于悬停模式就返回§e真§r, 否则就返回§e假§r.
+
+# gui - tag list - integration - terrafirmacraft
+ingameinfoxml.tag.tfcrainfall.desc=当前位置降水量.
+ingameinfoxml.tag.tfctemperature.desc=当前位置温度.
+ingameinfoxml.tag.tfcaveragetemperature.desc=当前位置的年平均温度.
+ingameinfoxml.tag.tfctemperatureheatsources.desc=当前位置有其他热源的温度.
+ingameinfoxml.tag.tfcseason.desc=季节.
+ingameinfoxml.tag.tfcdate.desc=日期.
+ingameinfoxml.tag.tfcday.desc=天.
+ingameinfoxml.tag.tfcmonth.desc=月.
+ingameinfoxml.tag.tfcyear.desc=年.
+ingameinfoxml.tag.fmtskill.desc=%s 信息.
+ingameinfoxml.tag.fmtskillrank.desc=%s等级.
+ingameinfoxml.tag.fmtskillprogress.desc=%s进度.
+
+# gui - tag list - integration - terrafirmacraftplus
+ingameinfoxml.tag.tfcplusrainfall.desc=当前位置降水量.
+ingameinfoxml.tag.tfcplustemperature.desc=当前位置温度.
+ingameinfoxml.tag.tfcplusaveragetemperature.desc=当前位置的年平均温度.
+ingameinfoxml.tag.tfcplustemperatureheatsources.desc=当前位置有其他热源的温度.
+ingameinfoxml.tag.tfcplusseason.desc=季节.
+ingameinfoxml.tag.tfcplusdate.desc=日期.
+ingameinfoxml.tag.tfcplusday.desc=天.
+ingameinfoxml.tag.tfcplusmonth.desc=月.
+ingameinfoxml.tag.tfcplusyear.desc=年.
+ingameinfoxml.tag.fmtskill.desc=%s 信息.
+ingameinfoxml.tag.fmtskillrank.desc=%s等级.
+ingameinfoxml.tag.fmtskillprogress.desc=%s进度.
 
 # gui - tag list - integration - thaumcraft
 ingameinfoxml.tag.tcwarpperm.desc=玩家的永久扭曲.

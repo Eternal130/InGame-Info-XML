@@ -104,7 +104,8 @@ def addDependency(depFilter, depName, depPath) {
 
 addDependency('BloodMagic*', 'BloodMagic', 'com/github/lunatrius/ingameinfo/integration/bloodmagic')
 addDependency('SimplyJetpacks*', 'SimplyJetpacks', 'com/github/lunatrius/ingameinfo/integration/simplyjetpacks')
-addDependency('*TerraFirmaCraft*', 'TerraFirmaCraft', 'com/github/lunatrius/ingameinfo/integration/terrafirmacraft')
+addDependency('*TerraFirmaCraft1*', 'TerraFirmaCraft', 'com/github/lunatrius/ingameinfo/integration/terrafirmacraft')
+addDependency('*TerraFirmaCraftPlus*', 'TerraFirmaCraftPlus', 'com/github/lunatrius/ingameinfo/integration/terrafirmacraftplus')
 addDependency('Thaumcraft*', 'Thaumcraft', 'com/github/lunatrius/ingameinfo/integration/thaumcraft')
 
 def commonManifest = {

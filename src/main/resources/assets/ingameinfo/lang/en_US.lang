@@ -56,6 +56,7 @@ ingameinfoxml.tag.category.world.name=World
 ingameinfoxml.tag.category.bloodmagic.name=Blood Magic
 ingameinfoxml.tag.category.simplyjetpacks.name=Simply Jetpacks
 ingameinfoxml.tag.category.terrafirmacraft.name=TerraFirmaCraft
+ingameinfoxml.tag.category.terrafirmacraftplus.name=TerraFirmaCraftPlus
 ingameinfoxml.tag.category.thaumcraft.name=Thaumcraft
 
 # gui - tag list - formatting tags
